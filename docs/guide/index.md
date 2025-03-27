@@ -1,210 +1,31 @@
-# Markdown & MDX
-
-Rspress supports not only Markdown but also [MDX](https://mdxjs.com/), a powerful way to develop content.
-
-## Markdown
-
-MDX is a superset of Markdown, which means you can write Markdown files as usual. For example:
-
-```md
-# Hello world
-```
-
-## Use component
-
-When you want to use React components in Markdown files, you should name your files with `.mdx` extension. For example:
-
-```mdx
-// docs/index.mdx
-import { CustomComponent } from './custom';
-
-# Hello world
-
-<CustomComponent />
-```
-
-## Front matter
-
-You can add Front Matter at the beginning of your Markdown file, which is a YAML-formatted object that defines some metadata. For example:
-
-```yaml
 ---
-title: Hello world
----
-```
-
-> Note: By default, Rspress uses h1 headings as html headings.
-
-You can also access properties defined in Front Matter in the body, for example:
-
-```markdown
----
-title: Hello world
+title: Введение
 ---
 
-# {frontmatter.title}
-```
+# Жизнь в Лондоне
 
-The previously defined properties will be passed to the component as `frontmatter` properties. So the final output will be:
-
-```html
-<h1>Hello world</h1>
-```
-
-## Custom container
-
-You can use the `:::` syntax to create custom containers and support custom titles. For example:
-
-**Input:**
-
-```markdown
-:::tip
-This is a `block` of type `tip`
+:::WARNING
+This is not legal advice
 :::
 
-:::info
-This is a `block` of type `info`
-:::
+Этот документ — расширенная версия моих заметок, а потом небольшого руководства по переезду для сотрудников Snap, которое неожиданно стало популярным. Чтобы сделать его доступным вне компании многие разделы пришлось убрать или сократить.
 
-:::warning
-This is a `block` of type `warning`
-:::
+Руководство постоянно дополняется. Можете в этом поучаствовать! Если не согласны с каким-то разделом или хотите дополнить — оставьте комментарий.
 
-:::danger
-This is a `block` of type `danger`
-:::
+В каких-то вещах, о которых я пишу, я не разбираюсь. Я добавил соответствующие разделы для других. Так что какая-то информация может быть неточной.
 
-::: details
-This is a `block` of type `details`
-:::
+## Полезные ссылки
 
-:::tip Custom Title
-This is a `block` of `Custom Title`
-:::
+Это руководство не всеобъемлющее, много полезной информации можно найти здесь:
 
-:::tip{title="Custom Title"}
-This is a `block` of `Custom Title`
-:::
-```
+* [https://gov.uk](https://gov.uk)
+* [https://nhs.uk](https://nhs.uk)
+* [https://www.moneysavingexpert.com/](https://www.moneysavingexpert.com/)
 
-**Output:**
+<!-- ### Свалка ссылок, чтоб потом разобрать
 
-:::tip
-This is a `block` of type `tip`
-:::
-
-:::info
-This is a `block` of type `info`
-:::
-
-:::warning
-This is a `block` of type `warning`
-:::
-
-:::danger
-This is a `block` of type `danger`
-:::
-
-::: details
-This is a `block` of type `details`
-:::
-
-:::tip Custom Title
-This is a `block` of `Custom Title`
-:::
-
-:::tip{title="Custom Title"}
-This is a `block` of `Custom Title`
-:::
-
-## Code block
-
-### Basic usage
-
-You can use the \`\`\` syntax to create code blocks and support custom titles. For example:
-
-**Input:**
-
-````md
-```js
-console.log('Hello World');
-```
-
-```js title="hello.js"
-console.log('Hello World');
-```
-````
-
-**Output:**
-
-```js
-console.log('Hello World');
-```
-
-```js title="hello.js"
-console.log('Hello World');
-```
-
-### Show line numbers
-
-If you want to display line numbers, you can enable the `showLineNumbers` option in the config file:
-
-```ts title="rspress.config.ts"
-export default {
-  // ...
-  markdown: {
-    showLineNumbers: true,
-  },
-};
-```
-
-### Wrap code
-
-If you want to wrap long code line by default, you can enable the `defaultWrapCode` option in the config file:
-
-```ts title="rspress.config.ts"
-export default {
-  // ...
-  markdown: {
-    defaultWrapCode: true,
-  },
-};
-```
-
-### Line highlighting
-
-You can also apply line highlighting and code block title at the same time, for example:
-
-**Input:**
-
-````md
-```js title="hello.js" {1,3-5}
-console.log('Hello World');
-
-const a = 1;
-
-console.log(a);
-
-const b = 2;
-
-console.log(b);
-```
-````
-
-**Output:**
-
-```js title="hello.js" {1,3-5}
-console.log('Hello World');
-
-const a = 1;
-
-console.log(a);
-
-const b = 2;
-
-console.log(b);
-```
-
-## Rustify MDX compiler
-
-You can enable Rustify MDX compiler by following config:
+[https://journal.tinkoff.ru/london/](https://journal.tinkoff.ru/london/)\
+[https://www.ru-uk.net/obrazovanie-v-anglii/item/46-detskie-sady-v-anglii.html](https://www.ru-uk.net/obrazovanie-v-anglii/item/46-detskie-sady-v-anglii.html)\
+[https://ru.wikihow.com/%D0%BF%D0%B5%D1%80%D0%B5%D0%B5%D1%85%D0%B0%D1%82%D1%8C-%D0%B2-%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D1%8E](https://ru.wikihow.com/%D0%BF%D0%B5%D1%80%D0%B5%D0%B5%D1%85%D0%B0%D1%82%D1%8C-%D0%B2-%D0%90%D0%BD%D0%B3%D0%BB%D0%B8%D1%8E)\
+[https://www.the-village.ru/village/business/their-life/278902-london](https://www.the-village.ru/village/business/their-life/278902-london)\
+[https://vc.ru/migrate/22564-moving-to-london](https://vc.ru/migrate/22564-moving-to-london) -->

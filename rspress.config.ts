@@ -3,19 +3,29 @@ import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  title: 'My Site',
-  icon: '/rspress-icon.png',
-  logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
-  },
+  title: 'Жизнь в Лондоне',
+  description: 'Руководство по выживанию в Лондоне',
+  //icon: '/icon.png',
+  logoText: 'Жизнь в Лондоне',
+  // logo: {
+  //   light: '/light-logo.png',
+  //   dark: '/dark-logo.png',
+  // },
   themeConfig: {
     socialLinks: [
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://github.com/velikodniy/london-guide',
       },
     ],
+    lastUpdated: true,
+    searchPlaceholderText: 'Поиск',
+    searchNoResultsText: 'Ничего не найдено для',
+    searchSuggestedQueryText: 'Повторите поиск',
+    prevPageText: 'Назад',
+    nextPageText: 'Вперёд',
+    lastUpdatedText: 'Обновлено',
+    sourceCodeText: 'Исходный текст',
   },
 });
