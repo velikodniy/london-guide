@@ -20,6 +20,7 @@ export default defineConfig({
       },
     ],
     lastUpdated: true,
+    outlineTitle: 'Содержание',
     searchPlaceholderText: 'Поиск',
     searchNoResultsText: 'Ничего не найдено для',
     searchSuggestedQueryText: 'Повторите поиск',
