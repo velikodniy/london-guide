@@ -33,6 +33,7 @@ export default defineConfig({
     locales: [
       {
         lang: 'en',
+        label: 'English',
         outlineTitle: 'On this page',
         searchPlaceholderText: 'Search',
         searchNoResultsText: 'No results found for',
@@ -44,6 +45,7 @@ export default defineConfig({
       },
       {
         lang: 'ru',
+        label: 'Русский',
         outlineTitle: 'Содержание',
         searchPlaceholderText: 'Поиск',
         searchNoResultsText: 'Ничего не найдено для',
