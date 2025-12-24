@@ -49,7 +49,7 @@
 ## Кого уведомить об изменении паспорта или BRP?
 
 When you set up your UKVI you registered your previous BRP and this is no longer valid.\
-You can change this by logging on to the following: https://www.gov.uk/update-uk-visas-immigration-account-details
+You can change this by logging on to the following: <https://www.gov.uk/update-uk-visas-immigration-account-details>
 
 Once you have updated your sign in details to your new BRP you need to return your old BRP to the Home Office.
 

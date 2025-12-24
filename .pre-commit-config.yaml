@@ -1,0 +1,25 @@
+repos:
+  # General purpose hooks (built-in, fast)
+  - repo: builtin
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: mixed-line-ending
+      - id: check-merge-conflict
+      - id: check-added-large-files
+
+  # Biome - linting and formatting for TS/JS/JSON
+  - repo: https://github.com/biomejs/pre-commit
+    rev: v2.0.0-beta.3
+    hooks:
+      - id: biome-check
+        additional_dependencies: ['@biomejs/biome@1.9.4']
+
+  # Markdown linting
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.20.0
+    hooks:
+      - id: markdownlint-cli2
+        args: [--fix]

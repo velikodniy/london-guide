@@ -49,7 +49,7 @@ For the UK, you can get a copy certified [at a post office](https://www.postoffi
 ## Who to Notify About Passport or BRP Changes?
 
 When you set up your UKVI account, you registered your previous BRP and this is no longer valid.\
-You can change this by logging on to: https://www.gov.uk/update-uk-visas-immigration-account-details
+You can change this by logging on to: <https://www.gov.uk/update-uk-visas-immigration-account-details>
 
 Once you have updated your sign-in details to your new BRP, you need to return your old BRP to the Home Office.
 

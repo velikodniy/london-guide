@@ -52,8 +52,8 @@ A good alternative to wired internet is mobile internet.
 
 For example, with Vodafone you can get unlimited mobile internet without traffic or speed limits for £37/month. Approximate real download speeds (depends on coverage, so numbers are approximate based on one example):
 
-* 4G — 40-50 Mbps, 60ms ping;
-* 5G — 160-350 Mbps, 20ms ping.
+- 4G — 40-50 Mbps, 60ms ping;
+- 5G — 160-350 Mbps, 20ms ping.
 
 The main disadvantage of 5G currently is router cost. New ones cost around £400, used on eBay — £200-250. You can get a tariff where the operator provides the router, but the price of a new one is just built into the contract. So it might make sense to find an unlocked used router in good condition — this can save some money.
 
