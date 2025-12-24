@@ -1,0 +1,13 @@
+# Work and Rest
+
+## Days Off
+
+England has [eight public holidays and bank holidays](https://www.gov.uk/bank-holidays). Many don't have fixed dates, so always check the calendar.
+
+## How to Take Leave or Sick Leave?
+
+Sick leave specifics are described in the [relevant section](broken-reference).
+
+**Full-time employees are entitled to** [**28 working days of leave**](https://www.gov.uk/holiday-entitlement-rights) **per calendar year.** The actual number may be less since the employer can include public holidays in these 28 days in whole or in part.
+
+These are specifically working days, meaning if you take 10 days off, you can rest for two weeks since weekends don't count.
