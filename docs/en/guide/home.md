@@ -132,7 +132,7 @@ If you've paid a deposit, your agency has taken the flat off the market, but you
 
 Carefully read the preliminary agreement that asks for the deposit payment. The contract will be based on it. This agreement can only be changed later with the landlord's consent.
 
-Make sure the agreement mentions a [break clause](broken-reference). Not everyone needs a break clause, but if you don't know what it is or are unsure, better to add it.
+Make sure the agreement mentions a [break clause](https://www.gov.uk/private-renting/tenancy-agreements-a-]to-z). Not everyone needs a break clause, but if you don't know what it is or are unsure, better to add it.
 
 ### The Contract and Break Clause
 
@@ -238,7 +238,7 @@ Tips:
 
 ## Who to Notify About Address Changes?
 
-If you've moved, set up [mail forwarding](broken-reference) as soon as possible (better before moving) and notify about your address change.
+If you've moved, set up [mail forwarding](/en/guide/communication) as soon as possible (better before moving) and notify about your address change.
 
 * Police registration at OVRO is currently [suspended](https://met.overseasregistrations.uk/). [Sign up at OVRO or police](https://www.gov.uk/register-with-the-police/change-replace). But in 2021-2022, due to huge queues, you don't need to write to the police as they allowed reporting the new address at the appointment.
 * [Notify the Home Office about your address change](https://visa-address-update.service.gov.uk/).

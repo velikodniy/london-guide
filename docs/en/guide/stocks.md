@@ -71,7 +71,7 @@ You can open a US bank account through TransferWise, and withdraw, convert, or s
 
 * Open Account → Send Wire on the website.
 * Select: From — Individual, To — International (Foreign Currency).
-* Below, enter bank details. You'll need an IBAN. This guide has a [section on how to find it for Barclays](broken-reference).
+* Below, enter bank details. You'll need an IBAN. This guide has a [section on how to find it for Barclays](/en/guide/money#how-to-find-the-iban-for-a-barclays-account).
 * Within a day, an employee will call to confirm, read out account numbers and amounts, and ask if everything is correct.
 * Within a week, money will appear in your British bank account.
 

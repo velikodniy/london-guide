@@ -39,7 +39,7 @@ The command will be something like:
 
 You may need to add exchange rates for recent months to the file cgt_calc/resources/initial_prices.csv (don't forget to reinstall the script with --force-reinstall afterward). The pound rate can be [found on gov.uk](https://www.gov.uk/government/collections/exchange-rates-for-customs-and-vat).
 
-In other cases, **it's strongly recommended to open an** [**ISA**](broken-reference). Income received through ISA isn't taxed.
+In other cases, **it's strongly recommended to open an** [**ISA**](/en/guide/stocks). Income received through ISA isn't taxed.
 
 ## Taxes on Share Trading
 
@@ -49,7 +49,7 @@ Net income from selling shares — so-called Capital Gains Tax — isn't taxed i
 
 For dividends, the threshold is lower — [£2,000](https://www.gov.uk/tax-on-dividends).
 
-No taxes on income are paid at all if earned through trading from an [ISA](broken-reference) account.
+No taxes on income are paid at all if earned through trading from an [ISA](/en/guide/stocks) account.
 
 ## The Bonus Problem
 

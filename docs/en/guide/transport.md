@@ -19,7 +19,7 @@ Unfortunately, the Tube map only shows Underground, Overground, or DLR lines, no
 
 There are two payment options: a regular bank card (including Google/Apple Pay) and Oyster. For the Tube and inner-city trains, you can also buy paper tickets, but they're more expensive.
 
-Children under 18 can travel free, but from age 5, they need to order a special Oyster with a photo. You can do this free online on the Transport for London website. Adults don't need to buy Oyster if they don't have a [Railcard](broken-reference) — the cost and discounts are exactly the same with a regular bank card. A bank card is the recommended payment method. However, Oyster has a small advantage — you can travel on credit. If you only have a pound on your card and travel to zone nine, your balance will go negative.
+Children under 18 can travel free, but from age 5, they need to order a special Oyster with a photo. You can do this free online on the Transport for London website. Adults don't need to buy Oyster if they don't have a [Railcard](https://www.railcard.co.uk/) — the cost and discounts are exactly the same with a regular bank card. A bank card is the recommended payment method. However, Oyster has a small advantage — you can travel on credit. If you only have a pound on your card and travel to zone nine, your balance will go negative.
 
 You can top up Oyster, if you use it, online through the Transport for London app.
 

@@ -47,7 +47,7 @@ GPs can write prescriptions and refer to specialists who usually work in clinics
 
 After registration, you'll be entered in the NHS system and assigned a unique ID (NHS Number). If you transfer to another GP, your data will automatically transfer to them.
 
-A feature of local medicine is minimal intervention. You'll most likely be told: "It'll pass on its own," — and usually it does. Or they'll prescribe paracetamol with ibuprofen. If you really want to see a specialist, tell them how bad you feel, how your illness affects your life. Alternatively, you can go to a [private clinic](broken-reference).
+A feature of local medicine is minimal intervention. You'll most likely be told: "It'll pass on its own," — and usually it does. Or they'll prescribe paracetamol with ibuprofen. If you really want to see a specialist, tell them how bad you feel, how your illness affects your life. Alternatively, you can go to a [private clinic](#private-clinics).
 
 ## Where Is the Nearest Clinic or Pharmacy?
 
